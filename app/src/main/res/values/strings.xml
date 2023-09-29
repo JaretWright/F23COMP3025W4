@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">F23COMP3025W4</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="pass_details"><![CDATA[Pass Details >>]]></string>
+    <string name="web_browser">Web Browser</string>
+    <string name="sms">SMS</string>
+</resources>
