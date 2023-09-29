@@ -1,5 +1,6 @@
 package com.example.f23comp3025w4
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -26,6 +27,9 @@ class MainActivity : AppCompatActivity() {
             if (name.isNotEmpty())
             {
                 //pass the name to another activity
+                var intent = Intent(this, PassDetailsActivity::class.java)
+                intent.putExtra("name",name)
+                startActivity(intent)
             }
             else
             {
