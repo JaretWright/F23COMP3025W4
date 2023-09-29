@@ -40,5 +40,9 @@ class MainActivity : AppCompatActivity() {
         binding.webBrowserButton.setOnClickListener {
             startActivity(Intent(this,WebBrowserActivity::class.java))
         }
+
+        binding.smsButton.setOnClickListener {
+            startActivity(Intent(this,SmsActivity::class.java))
+        }
     }
 }
